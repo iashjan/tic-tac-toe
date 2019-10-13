@@ -1,0 +1,43 @@
+body{
+background-color: #F3ECD3;
+margin: 0;
+padding: 50px;
+text-align:  center;
+
+}
+header {
+	background-color: rgb(136, 105, 113);
+	color:#FFFFFF;
+	padding; 30px 20px;
+}
+footer{
+    background-color: rgb(136, 105, 113);
+	color:#FFFFFF;
+    padding; 30px 20px;
+
+}
+
+
+.box{
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    background-color: #B3C0AC;
+    border: 2px solid #B2A3A8;
+
+}
+
+
+.table{
+
+    width: 600px;
+  }
+
+
+.table-container{
+width: 618px;
+grid-column-end: auto;
+display: block;
+margin:250px ;
+
+}
