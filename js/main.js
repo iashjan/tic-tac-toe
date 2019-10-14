@@ -13,7 +13,6 @@ var winnerInex=[
 var table = document.querySelector(".table-container");
 
 
-
 // function mainGame () {
 
   function myCreateFunction() {
