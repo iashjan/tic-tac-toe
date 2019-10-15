@@ -23,6 +23,7 @@ var table = document.querySelector(".table-container");
         box.setAttribute("id", i)
         box.addEventListener("click",player);
         currentState.push('');
+
         // box.innerText="x";
 
     }
@@ -44,8 +45,15 @@ var table = document.querySelector(".table-container");
     currentState[this.getAttribute("id")]="x";
     if( checkForWinner()){
       alert("you win game ended")
-    }
-    else{
+      location.reload();
+
+}
+else if(checkForDraw()){
+  alert("it's a tie");
+        location.reload();
+
+}
+  else{
       computer();
     }
   }
@@ -61,7 +69,14 @@ var table = document.querySelector(".table-container");
     currentState[randomIndex]="o"
     if(checkForWinner()){
       alert("you lose game ended")
+      location.reload();
+
+    } 
+    else if(checkForDraw()){
+      alert("it's a tie")
+      location.reload();
     }
+
   }
 
   function checkForWinner(){
@@ -71,13 +86,22 @@ var table = document.querySelector(".table-container");
         return true;
 
       }
-       
+    }
 
-  }
   return false;
+        
+}
+
+function checkForDraw(){
+  for(let i=0;i<currentState.length;i++){
+    if(currentState[i]==''){
+    
+      return false;
+
+    }
+  }
+ return true;
 }
 
 
 
-
-// mainGame()
