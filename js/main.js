@@ -102,6 +102,3 @@ function checkForDraw(){
   }
  return true;
 }
-
-
-
