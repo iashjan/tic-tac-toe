@@ -1,13 +1,33 @@
-this is tic tac toe 
+Project Title
+One Paragraph of project description goes here
 
-ti's a game for two players, X and O, who take turns marking the spaces in a 3×3 grid. 
-The player who succeeds in placing three of their marks in a horizontal, vertical, 
-or diagonal row is the winner.
+Description
+A description of your project. Explain what is the project about and what is the use for it.
 
-*///////////////////*
+Technical Used
+What technologies you used that helped you build this project.
 
-in this game you will play agnist computar ..
+Example:
+HTML
+CSS
+JavaScript, and jQuery for DOM manipulation
+Wireframes
+Your step by step planning sketch of your project, that you can post them as an image in here.
 
-**____________________*
+User Stories
+A story of the project user, that explains the use of the project.
 
-have FUN :)
+Planning and Development Process
+A basic story of your planning and developing this project.
+
+Problem-Solving Strategy
+What strategy did you use to solve your problems.
+
+Unsolved problems
+List unsolved problems which would be fixed in future iterations.
+
+Acknowledgments
+Hat tip to anyone whose code was used
+Inspiration
+etc
+References

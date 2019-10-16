@@ -1,25 +1,27 @@
 @import "https://fonts.googleapis.com/css?family=Indie+Flower|Nanum+Gothic&display=swap";
 
 body {
-background-color: #f3ecd3;
+ background-image: linear-gradient(rgb(220, 228, 216), #f3ecd3, #e4dcdf, #e9dee2, #efedf3,  #f3ecd3, #b3c0aC);
+background-color: #f3ecd3 ;
 margin: 0;
 padding: 20px;
 text-align:  center;
 
 }
-header {
+
+/* header {
 	background-color: #9a7686;
 	color:#fff;
     padding: 30px 20px;
     margin-bottom: 30px;
 
-}
-footer {
+} */
+/* footer {
     background-color: #9a7686;
         color:#fff;
     padding: 30px 20px;
     margin-top: 30px;
-}
+} */
 
 
 .box { 
@@ -56,19 +58,47 @@ h1 {
     font-size: 40px;
     color: #fff;
     text-transform:  uppercase;
-    background-color: #646173;
+    background-color: #646173 ;
 }
 
 p {
     font-family:  'Nanum Gothic', sans-serif;
     color: #fff;
-    text-transform:  uppercase;
+    text-transform: lowercase; 
     font-size: 14px;
 	letter-spacing: .08em;
 	font-weight: 500px;
     background-color: #534d6b;
+    padding: 30px 20px;
+    margin-top: 50px;
 }
 
 .box:hover {
    color: #e3e6c6;
+   
 }
+.game{
+    font-family:  'Nanum Gothic', sans-serif;
+    color: #fff;
+    text-transform: unset;
+    font-size: 20px;
+	letter-spacing: .08em;
+	font-weight: 500px;
+    background-color: #796980;
+    border-radius: 40px 20px 60px;
+    padding: 30px 20px ;
+    margin-top: 50px;
+}
+ 
+button {
+    background-color: rgba(198, 218, 166, 0.952); /* Green */
+    padding: 30px 60px;
+    border-radius: 100px 30px 100px ;
+  } 
+
+  a {
+      text-decoration: unset;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #646173;
+  }
