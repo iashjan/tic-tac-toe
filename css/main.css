@@ -9,20 +9,23 @@ text-align:  center;
 
 }
 
-/* header {
+/header {
 	background-color: #9a7686;
 	color:#fff;
     padding: 30px 20px;
     margin-bottom: 30px;
 
-} */
-/* footer {
-    background-color: #9a7686;
+} 
+ footer {
         color:#fff;
-    padding: 30px 20px;
+    padding: 25px 20px;
     margin-top: 30px;
-} */
+} 
 
+.copyright {
+    text-transform: uppercase;
+    letter-spacing: 0.8em;
+}
 
 .box { 
     font-family: 'Indie Flower', cursive;
@@ -69,8 +72,8 @@ p {
 	letter-spacing: .08em;
 	font-weight: 500px;
     background-color: #534d6b;
-    padding: 30px 20px;
-    margin-top: 50px;
+    padding: 25px 20px;
+    margin-top: 20px;
 }
 
 .box:hover {
