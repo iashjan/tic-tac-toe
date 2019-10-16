@@ -44,13 +44,13 @@ var table = document.querySelector(".table-container");
     this.innerText="x";
     currentState[this.getAttribute("id")]="x";
     if( checkForWinner()){
-      alert("you win game ended")
+      Swal.fire('you win!')
       location.reload();
 
 }
 else if(checkForDraw()){
-  alert("it's a tie");
-        location.reload();
+  Swal.fire("it's a tie")
+  location.reload();
 
 }
   else{
@@ -68,7 +68,7 @@ else if(checkForDraw()){
     document.getElementById(randomIndex).innerText="o";
     currentState[randomIndex]="o"
     if(checkForWinner()){
-      alert("you lose game ended")
+      Swal.fire('you lose!')
       location.reload();
 
     } 
