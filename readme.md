@@ -1,33 +1,88 @@
 Project Title
-One Paragraph of project description goes here
+tic tac toe "game"
+This game for two players, The player who succeeds in placing three of their 
+marks in a horizontal, vertical, or diagonal row is the winner.
 
-Description
-A description of your project. Explain what is the project about and what is the use for it.
+ 
+ 
+ *--------------*
 
-Technical Used
-What technologies you used that helped you build this project.
+Description:-
 
-Example:
+project about tic tac toe "online game "
+it's a game for tow players playing online 
+"human and computer" :)
+
+*--------------------*
+
+
+Technical Used :-
+
+
 HTML
 CSS
-JavaScript, and jQuery for DOM manipulation
-Wireframes
-Your step by step planning sketch of your project, that you can post them as an image in here.
+JavaScript, 
 
-User Stories
-A story of the project user, that explains the use of the project.
+User Stories:-
 
-Planning and Development Process
-A basic story of your planning and developing this project.
+ it's easy ..
 
-Problem-Solving Strategy
-What strategy did you use to solve your problems.
+ click on start button 
+ then click on any squar to put your "x"
+ you will play ith pomuter 
 
-Unsolved problems
-List unsolved problems which would be fixed in future iterations.
+ you winer the game if can  placing three of your
+marks in a horizontal, vertical, or diagonal row ..
+the game refresh automatically if you win ,lose or tie .
+
+
+Wireframes:-
+
+i really  don't have one .. 
+
+Planning and Development Process:-
+
+-Day one 
+
+i started with html and created the table in javascript..
+
+-Day tow 
+
+i created function for players amd chickwinner and the first design in css
+
+-Day three
+i sloved some problems and commleted design
+
+-Day four 
+
+i add first page and read me page ..
+
+
+
+Problem-Solving Strategy :-
+ -understanding the problem ..
+ -use console.log
+ -developer tools
+ -trying some code 
+ -search on google 
+
+ if all that not works
+
+ Ask for help (classmates or instructor)..
+
+
+
+Unsolved problems:-
+NONE
+
 
 Acknowledgments
-Hat tip to anyone whose code was used
+
+Amal 
+Atheer 
+duaa
+aisha 
+
 Inspiration
 etc
 References
