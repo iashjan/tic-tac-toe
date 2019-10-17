@@ -29,9 +29,9 @@ User Stories:-
 
  click on start button 
  then click on any squar to put your "x"
- you will play ith pomuter 
+ you will play with computer 
 
- you winer the game if can  placing three of your
+ you winer the game if  you  placing three of your
 marks in a horizontal, vertical, or diagonal row ..
 the game refresh automatically if you win ,lose or tie .
 
@@ -73,7 +73,10 @@ Problem-Solving Strategy :-
 
 
 Unsolved problems:-
-NONE
+alrt (showing fast) ..
+
+ُُُThe pink header , i don't have header :)
+i don't know wاere it come from ..!
 
 
 Acknowledgments
