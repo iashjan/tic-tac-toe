@@ -13,7 +13,6 @@ var winnerInex=[
 var table = document.querySelector(".table-container");
 
 
-// function mainGame () {
 
   function myCreateFunction() {
     for (let i = 0; i <9;  i++){
@@ -24,21 +23,13 @@ var table = document.querySelector(".table-container");
         box.addEventListener("click",player);
         currentState.push('');
 
-        // box.innerText="x";
 
     }
   }
 
   myCreateFunction()
 
-// function ready(){
-//       let plalyer1 = X
-//       let computer = o
-//       let result = ""
-      
 
-//   }  
-  
   function player(){
   if(this.innerText ===''){
     this.innerText="x";
@@ -69,12 +60,11 @@ else if(checkForDraw()){
     currentState[randomIndex]="o"
     if(checkForWinner()){
       Swal.fire('you lose!')
-      location.reload();
+       location.reload();
 
     } 
     else if(checkForDraw()){
       alert("it's a tie")
-      location.reload();
     }
 
   }

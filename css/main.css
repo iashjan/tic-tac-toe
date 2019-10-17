@@ -9,13 +9,7 @@ text-align:  center;
 
 }
 
-header {
-	background-color: #9a7686;
-	color:#fff;
-    padding: 30px 20px;
-    margin-bottom: 30px;
 
-} 
  footer {
         color:#fff;
     padding: 25px 20px;
@@ -62,19 +56,19 @@ h1 {
     color: #fff;
     text-transform:  uppercase;
     background-color: #646173 ;
-}
-
+    
+    
 p {
-    font-family:  'Nanum Gothic', sans-serif;
+    font-family: 'Nanum Gothic', sans-serif;
     color: #fff;
     text-transform: lowercase; 
     font-size: 14px;
-	letter-spacing: .08em;
+	letter-spacing : .08em;
 	font-weight: 500px;
-    background-color: #534d6b;
+    background-color: #534d6b; 
     padding: 25px 20px;
     margin-top: 20px;
-}
+ }
 
 .box:hover {
    color: #e3e6c6;
@@ -87,7 +81,7 @@ p {
     font-size: 20px;
 	letter-spacing: .08em;
 	font-weight: 500px;
-    background-color: #796980;
+    background-color: #796980; 
     border-radius: 40px 20px 60px;
     padding: 50px 20px ;
     margin-top: 50px;
